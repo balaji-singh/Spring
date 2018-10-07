@@ -7,5 +7,6 @@
   <name>Spring Parent to build all modules </name>
   <modules>
   	<module>SpringMVC_Exg</module>
+  	<module>SpringHelloWorld</module>
   </modules>
 </project>
