@@ -2,7 +2,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.masterjavaonline.spring</groupId>
 	<artifactId>spring-mvc-exg</artifactId>
 	<name>SpringMVC_Exg</name>
 	<packaging>war</packaging>
@@ -155,4 +154,9 @@
             </plugin>
         </plugins>
     </build>
+    <parent>
+    	<groupId>com.masterjavaonline.spring</groupId>
+    	<artifactId>Spring</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </parent>
 </project>
