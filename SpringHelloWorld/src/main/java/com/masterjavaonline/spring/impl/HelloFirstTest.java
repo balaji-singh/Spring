@@ -22,6 +22,8 @@ public class HelloFirstTest {
 		BeanFactory factory = new ClassPathXmlApplicationContext("spring-beans.xml");
 		HelloWorld helloBean = (HelloWorld) factory.getBean("HelloBean");
 		helloBean.sayHello();
+		HelloWorld helloBean1 = (HelloWorld) factory.getBean("HelloBean");
+		helloBean1.sayHello();
 	}
 
 }

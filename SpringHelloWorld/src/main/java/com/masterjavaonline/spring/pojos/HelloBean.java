@@ -12,6 +12,13 @@ import com.masterjavaonline.spring.interfaces.HelloWorld;
 public class HelloBean implements HelloWorld {
 
 	private String message;
+	
+	
+
+	public HelloBean() {
+		
+		System.out.println("****Bean Created****");
+	}
 
 	public void setMessage(String message) {
 		this.message = message;

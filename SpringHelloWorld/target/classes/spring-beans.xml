@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
 	<bean name="HelloBean"
-		class="com.masterjavaonline.spring.pojos.HelloBean">
+		class="com.masterjavaonline.spring.pojos.HelloBean" scope="prototype">
 		<property name="message" value="Master Java Online" />
 	</bean>
 </beans>
